@@ -1,0 +1,85 @@
+body {
+  background-color: black; /* Set background color of the body */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #555555; /* Light black or gray background */
+  padding: 60px; /* Decreased padding */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Decreased width */
+  margin-top: 60px; /* Added margin-top to move it higher */
+  text-align: center; /* Center align text */
+}
+
+.form-control {
+  width: calc(100% - 5px); /* Expand the width slightly */
+  height: 50px; /* Increase the height */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Add rounded corners */
+  color: white; /* Text color visible against dark background */
+  padding: 10px; /* Add some padding */
+  box-sizing: border-box; /* Ensure content fits within input area */
+  transition: background-color 0.2s ease-in-out; /* Smooth background color change */
+}
+
+.form-control::placeholder {
+  color: gray;
+}
+
+.form-control:focus {
+  background-color: rgba(0, 0, 0, 0.2); /* Slightly darker background on focus */
+  color: white; /* Sets text color to white when focused */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.subtext {
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align terms and conditions */
+  margin-top: 10px;
+}
+
+.terms input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.terms a {
+  color: white;
+  text-decoration: none;
+}
+
+.register-button {
+  width: calc(100% - 20px); /* Increase button width */
+  margin-top: 20px; /* Add spacing to the button */
+  background-color: orange; /* Change button color to orange */
+  height: 50px; /* Increase button height */
+}
+
+
+.mb-3 {
+  margin-bottom: 20px; /* Add spacing between the text boxes */
+}
+.brand {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 32px; /* Increase font size */
+  margin-bottom: 20px; /* Add some bottom margin */
+}
